@@ -1,5 +1,5 @@
 const constants = {}
-constants.organization = 'poanetwork'
+constants.organization = 'ColuLocalNetwork'
 constants.repoName = 'poa-chain-spec'
 constants.addressesSourceFile = 'contracts.json'
 constants.ABIsSources = {
@@ -11,28 +11,10 @@ constants.ABIsSources = {
 constants.userDeniedTransactionPattern = 'User denied transaction'
 
 constants.NETWORKS = {
-  '77': {
-    NAME: 'Sokol',
-    RPC: 'https://sokol.poa.network',
-    BRANCH: 'sokol',
-    TESTNET: true
-  },
-  '99': {
-    NAME: 'Core',
-    RPC: 'https://core.poa.network',
-    BRANCH: 'core',
-    TESTNET: false
-  },
-  '79': {
-    NAME: 'Dai-Test',
-    RPC: 'https://dai-test.poa.network',
-    BRANCH: 'dai-test',
-    TESTNET: true
-  },
-  '100': {
-    NAME: 'Dai',
-    RPC: 'https://dai.poa.network',
-    BRANCH: 'dai',
+  '121': {
+    NAME: 'FuseNetwork',
+    RPC: 'https://rpc.fuse.io',
+    BRANCH: 'FuseNetwork',
     TESTNET: false
   }
 }
